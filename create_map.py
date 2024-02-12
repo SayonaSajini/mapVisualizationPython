@@ -10,4 +10,3 @@ for index, row in partnerships_data.iterrows():
                   popup=row['Partner']).add_to(partnerships_map)
 
 partnerships_map.save('partnerships_map.html')
-
